@@ -81,11 +81,11 @@ Using The AWS glue data catalog, I created a glue tables so that I can query the
 
 [2. accelerometer_landing_to_trusted_zone.py](accelerometer_landing_to_trusted_zone.py) - This script transfers accelerometer data from the 'landing' to 'trusted' zones. Using a join on customer_trusted and accelerometer_landing, It filters for Accelerometer readings from customers who have agreed to share data with researchers.
 
-![alt text](Screenshots/accelerometer_trusted.png)
+![alt text](Screenshots/accelerometer_trusted.PNG)
 
 [3. Trainer_landing_to_trusted.py](Trainer_landing_to_trusted.py) - This script transfers Step Trainer data from the 'landing' to 'trusted' zones. Using a join on customer_curated and step_trainer_landing, It filters for customers who have accelerometer data and have agreed to share their data for research with Step Trainer readings.
 
-![alt text](Screenshots/step_trainer_trusted.png)
+![alt text](Screenshots/step_trainer_trusted.PNG)
 
 
 
