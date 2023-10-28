@@ -1,3 +1,3 @@
 # Purpose of this Folder
 
-This folder should contain public project starter code. 
+This folder should contain the public project starter code and the screenshots. 
